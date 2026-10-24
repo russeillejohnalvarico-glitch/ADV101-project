@@ -12,8 +12,9 @@ A simple Next.js note application built with React event handling and form valid
 - If all checks pass, the user is sent to the **Notes page** (`/notes`).
 - **Bonus 1:** the error message is shown below the Log in button.
 - **Bonus 2:** a **Log out** button returns the user to the login screen.
-- Notes page: add and delete notes. Notes are saved in the browser (localStorage).
+- Notes page: add and delete colorful sticky notes (5 colors). Press **Ctrl + Enter** to add a note quickly. Notes are saved in the browser (localStorage).
 - Visiting `/notes` without logging in redirects back to the login page.
+- Responsive design that works on desktop and phones.
 
 ## Getting started
 
@@ -30,8 +31,9 @@ Then open [http://localhost:3000](http://localhost:3000).
 app/
   page.js              Login page with validation
   notes/page.js        Notes page with logout
-  components/NoteIcon.js
+  components/Icons.js  SVG icons
   lib/session.js       Storage keys
   globals.css          Styles
-  layout.js
+  layout.js            Fonts and page shell
+  icon.svg             Favicon
 ```
